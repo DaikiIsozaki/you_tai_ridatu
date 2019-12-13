@@ -1,0 +1,81 @@
+﻿  billboard.cpp
+  bullet.cpp
+  Camera.cpp
+Camera.cpp(172): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+Camera.cpp(190): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+Camera.cpp(199): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+  Character.cpp
+Character.cpp(218): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+  Coa.cpp
+  Coa_factory.cpp
+  CoffeeCup.cpp
+  Cube.cpp
+  CubeMove.cpp
+  debug.cpp
+  debug_primitive.cpp
+debug_primitive.cpp(66): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+debug_primitive.cpp(67): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  direct3d.cpp
+  Dummy.cpp
+  Enemy.cpp
+  EnemyFactory.cpp
+  exp.cpp
+  fade.cpp
+  game.cpp
+game.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  grid.cpp
+  heri.cpp
+  コンパイル中...
+  HUD.cpp
+  input.cpp
+  justaway.cpp
+  Komono.cpp
+  Light.cpp
+  main.cpp
+  MeshField.cpp
+MeshField.cpp(60): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+MeshField.cpp(93): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+MeshField.cpp(97): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+MeshField.cpp(134): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+MeshField.cpp(167): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+MeshField.cpp(171): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+MeshField.cpp(226): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+MeshField.cpp(262): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+MeshField.cpp(266): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+  Model.cpp
+Model.cpp(81): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Model.cpp(111): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  number.cpp
+c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(9): warning C4005: 'NUMBER_WIDTH': マクロが再定義されました。
+  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(10): note: 'NUMBER_WIDTH' の以前の定義を確認してください
+c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(10): warning C4005: 'NUMBER_HEIGHT': マクロが再定義されました。
+  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(11): note: 'NUMBER_HEIGHT' の以前の定義を確認してください
+  player.cpp
+  result.cpp
+  scene.cpp
+  score.cpp
+c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(9): warning C4005: 'NUMBER_WIDTH': マクロが再定義されました。
+  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(10): note: 'NUMBER_WIDTH' の以前の定義を確認してください
+c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(10): warning C4005: 'NUMBER_HEIGHT': マクロが再定義されました。
+  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(11): note: 'NUMBER_HEIGHT' の以前の定義を確認してください
+  shadow.cpp
+  soukousya.cpp
+  sound.cpp
+  SphereCollision.cpp
+  sprite.cpp
+sprite.cpp(84): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+sprite.cpp(85): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+  SpriteAnim.cpp
+  system_timer.cpp
+  コンパイル中...
+  texture.cpp
+  title.cpp
+  wall.cpp
+  wall_factory.cpp
+wall_factory.cpp(188): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+wall_factory.cpp(188): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  All 252 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  DX.vcxproj -> C:\Users\大輝\Documents\Visual Studio 2015\Projects\DX\Release\DX.exe
+  DX.vcxproj -> C:\Users\大輝\Documents\Visual Studio 2015\Projects\DX\Release\DX.pdb (Full PDB)
