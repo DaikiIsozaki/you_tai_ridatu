@@ -97,21 +97,21 @@ void Character_Update(int Case)
 	if (Case == 0 || Case == 2)
 	{
 
-		if (Keyboard_IsPress(DIK_1))
+		if (Keyboard_IsPress(DIK_W))
 		{
 			f.y = 0.0f;
 			Character += f * CHARACTERSPEED;
 
 			
 		}
-		if (Keyboard_IsPress(DIK_2))
+		if (Keyboard_IsPress(DIK_S))
 		{
 			f.y = 0.0f;
 			Character -= f * CHARACTERSPEED;
 
 		}
 
-		if (Keyboard_IsPress(DIK_3))
+		if (Keyboard_IsPress(DIK_A))
 		{
 
 			D3DXMATRIX mtxR;
@@ -122,7 +122,7 @@ void Character_Update(int Case)
 			CharaAng -= 0.5f;
 
 		}
-		if (Keyboard_IsPress(DIK_4))
+		if (Keyboard_IsPress(DIK_D))
 		{
 			D3DXMATRIX mtxR;
 			D3DXMatrixRotationY(&mtxR, D3DXToRadian(0.5f));

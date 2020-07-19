@@ -61,20 +61,20 @@ void Dummy_Update(int Case)
 {
 	//ˆÚ“®
 	
-	if (Keyboard_IsPress(DIK_1))
+	if (Keyboard_IsPress(DIK_W))
 		{
 			D3DXVECTOR3 f(D_Front);
 			f.y = 0.0f;
 			Dummy += f * DummySPEED;
 		}
-		if (Keyboard_IsPress(DIK_2))
+		if (Keyboard_IsPress(DIK_S))
 		{
 			D3DXVECTOR3 f(D_Front);
 			f.y = 0.0f;
 			Dummy -= f * DummySPEED;
 		}
 		D3DXMATRIX mtxR;
-		if (Keyboard_IsPress(DIK_3))
+		if (Keyboard_IsPress(DIK_A))
 		{
 
 			D3DXMatrixRotationY(&mtxR, D3DXToRadian(-0.5f));
@@ -84,7 +84,7 @@ void Dummy_Update(int Case)
 			DummyAng -= 0.5f;
 
 		}
-		if (Keyboard_IsPress(DIK_4))
+		if (Keyboard_IsPress(DIK_D))
 		{
 			D3DXMatrixRotationY(&mtxR, D3DXToRadian(0.5f));
 			D3DXVec3TransformNormal(&D_Front, &D_Front, &mtxR);
