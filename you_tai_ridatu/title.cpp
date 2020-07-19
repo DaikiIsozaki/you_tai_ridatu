@@ -44,7 +44,7 @@ void title_Update(void)
 }
 void title_Draw(void)
 {
-	Sprite_Draw(32, 0, 0, 1);
+	Sprite_Draw(32, 0, 0, 2.1f);
 }
 
 bool Title_bEnd(void)
