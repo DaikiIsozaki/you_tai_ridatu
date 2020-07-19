@@ -1,11 +1,10 @@
 ﻿  billboard.cpp
   bullet.cpp
   Camera.cpp
-Camera.cpp(172): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
-Camera.cpp(190): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
-Camera.cpp(199): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Camera.cpp(172,35): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Camera.cpp(190,56): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
   Character.cpp
-Character.cpp(218): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Camera.cpp(199,57): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
   Coa.cpp
   Coa_factory.cpp
   CoffeeCup.cpp
@@ -13,8 +12,8 @@ Character.cpp(218): warning C4305: '=': 'double' から 'float' へ切り詰め�
   CubeMove.cpp
   debug.cpp
   debug_primitive.cpp
-debug_primitive.cpp(66): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-debug_primitive.cpp(67): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Character.cpp(218,28): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\debug_primitive.cpp(66,54): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
   direct3d.cpp
   Dummy.cpp
   Enemy.cpp
@@ -22,7 +21,8 @@ debug_primitive.cpp(67): warning C4244: '=': 'double' から 'float' への変�
   exp.cpp
   fade.cpp
   game.cpp
-game.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\debug_primitive.cpp(67,54): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\game.cpp(58,46): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   grid.cpp
   heri.cpp
   コンパイル中...
@@ -33,38 +33,44 @@ game.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です�
   Light.cpp
   main.cpp
   MeshField.cpp
-MeshField.cpp(60): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
-MeshField.cpp(93): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
-MeshField.cpp(97): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
-MeshField.cpp(134): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
-MeshField.cpp(167): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
-MeshField.cpp(171): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
-MeshField.cpp(226): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
-MeshField.cpp(262): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
-MeshField.cpp(266): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\game.cpp(58,30): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(60,118): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(93,62): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(97,53): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(134,16): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(167,65): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(171,55): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(226,17): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(262,65): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
   Model.cpp
-Model.cpp(81): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-Model.cpp(111): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\MeshField.cpp(266,55): warning C4244: '=': 'double' から 'WORD' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Model.cpp(81,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
   number.cpp
-c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(9): warning C4005: 'NUMBER_WIDTH': マクロが再定義されました。
-  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(10): note: 'NUMBER_WIDTH' の以前の定義を確認してください
-c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(10): warning C4005: 'NUMBER_HEIGHT': マクロが再定義されました。
-  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(11): note: 'NUMBER_HEIGHT' の以前の定義を確認してください
   player.cpp
   result.cpp
   scene.cpp
   score.cpp
-c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(9): warning C4005: 'NUMBER_WIDTH': マクロが再定義されました。
-  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(10): note: 'NUMBER_WIDTH' の以前の定義を確認してください
-c:\users\大輝\documents\visual studio 2015\projects\dx\number.h(10): warning C4005: 'NUMBER_HEIGHT': マクロが再定義されました。
-  c:\users\大輝\documents\visual studio 2015\projects\dx\common.h(11): note: 'NUMBER_HEIGHT' の以前の定義を確認してください
   shadow.cpp
   soukousya.cpp
   sound.cpp
   SphereCollision.cpp
   sprite.cpp
-sprite.cpp(84): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
-sprite.cpp(85): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Model.cpp(111,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(122,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(123,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(225,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(226,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(234,35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(235,35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(236,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(237,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(238,35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(239,35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(240,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(241,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(264,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(265,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(321,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
   SpriteAnim.cpp
   system_timer.cpp
   コンパイル中...
@@ -72,10 +78,301 @@ sprite.cpp(85): warning C4244: '初期化中': 'int' から 'float' への変換
   title.cpp
   wall.cpp
   wall_factory.cpp
-wall_factory.cpp(188): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
-wall_factory.cpp(188): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\sprite.cpp(322,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(14,37): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(14,37): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(15,42): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(15,42): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(16,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(16,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(17,46): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(17,46): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(18,46): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(18,46): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(19,46): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(19,46): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(22,46): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(22,46): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(23,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(23,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(24,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(24,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(25,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(25,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(26,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(26,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(27,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(27,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(28,39): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(28,39): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(29,44): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(29,44): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(32,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(32,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(33,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(33,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(34,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(34,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(36,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(36,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(37,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(37,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(38,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(38,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(39,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(39,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(40,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(40,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(41,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(41,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(42,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(42,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(43,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(43,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(44,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(44,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(45,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(45,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(46,43): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(46,43): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(47,43): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(47,43): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(48,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(48,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(49,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(49,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(52,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(52,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(53,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(53,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(54,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(54,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(55,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(55,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(56,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(56,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(57,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(57,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(58,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(58,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(59,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(59,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(60,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(60,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(61,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(61,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(62,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(62,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(65,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(65,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(66,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(66,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(67,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(67,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(68,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(68,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(69,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(69,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(70,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(70,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(71,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(71,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(72,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(72,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(75,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(75,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(76,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(76,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(77,45): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(77,45): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(78,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(78,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(79,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(79,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(80,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(80,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(81,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(81,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(82,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(82,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(85,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(85,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(86,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(86,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(87,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(87,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(88,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(88,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(89,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(89,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(90,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(90,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(91,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(91,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(92,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(92,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(93,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(93,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(94,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(94,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(95,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(95,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(96,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(96,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(97,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(97,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(98,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(98,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(99,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(99,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(100,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(100,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(101,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(101,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(102,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(102,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(103,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(103,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(104,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(104,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(110,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(110,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(111,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(111,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(112,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(112,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(113,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(113,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(114,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(114,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(115,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(115,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(116,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(116,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(117,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(117,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(118,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(118,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(119,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(119,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(120,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(120,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(121,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(121,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(122,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(122,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(123,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(123,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(124,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(124,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(125,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(125,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(128,49): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(128,49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(131,43): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(131,43): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(132,48): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(132,48): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(133,50): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(133,50): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(134,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(134,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(135,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(135,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(136,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(136,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(137,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(137,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(138,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(138,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(139,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(139,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(140,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(140,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(141,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(141,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(142,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(142,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(143,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(143,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(144,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(144,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(145,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(145,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(146,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(146,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(148,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(148,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(150,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(150,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(151,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(151,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(152,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(152,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(153,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(153,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(154,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(154,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(155,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(155,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(156,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(156,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(157,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(157,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(158,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(158,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(159,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(159,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(160,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(160,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(161,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(161,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(162,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(162,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(163,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(163,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(164,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(164,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(165,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(165,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(167,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(167,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(169,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(169,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(170,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(170,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(171,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(171,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(172,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(172,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(173,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(173,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(174,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(174,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(175,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(175,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(176,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(176,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(177,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(177,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(178,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(178,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(179,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(179,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(180,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(180,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(181,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(181,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(182,50): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(182,50): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(183,50): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(183,50): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(184,46): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(184,46): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(186,51): warning C4838: 'float' から 'int' への変換には縮小変換が必要です
+C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\wall_factory.cpp(186,51): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
   コード生成しています。
-  All 252 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 255 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   コード生成が終了しました。
-  DX.vcxproj -> C:\Users\大輝\Documents\Visual Studio 2015\Projects\DX\Release\DX.exe
-  DX.vcxproj -> C:\Users\大輝\Documents\Visual Studio 2015\Projects\DX\Release\DX.pdb (Full PDB)
+  DX.vcxproj -> C:\Users\dwusn\Desktop\作品\you_tai_ridatu\you_tai_ridatu\Release\DX.exe
